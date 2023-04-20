@@ -5,8 +5,8 @@ import Image from 'next/image'
 import axios from "axios"
 import { useState } from "react"
 import { BsSearch } from 'react-icons/bs'
-import { Weather } from '@/components/weather'
-import { Spinner } from '@/components/spinner'
+import { Weather } from '../components/weather.jsx'
+import { Spinner } from '../components/spinner.jsx'
 
 
 export default function Home() {
